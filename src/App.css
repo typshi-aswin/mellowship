@@ -299,7 +299,7 @@ background: linear-gradient(158deg,rgba(118, 98, 252, 1) 4%, rgba(10, 161, 85, 1
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 12px;
   background-color: rgba(255, 255, 255, 0.08);
   border: none;
   padding: 12px 20px;
@@ -308,7 +308,7 @@ background: linear-gradient(158deg,rgba(118, 98, 252, 1) 4%, rgba(10, 161, 85, 1
   font-weight: 500;
   border-radius: 8px;
   cursor: pointer;
-  width: 285px;
+  width: 270px;
 }
 
 .action-btn img {
@@ -612,6 +612,11 @@ background: linear-gradient(158deg,rgba(118, 98, 252, 1) 4%, rgba(10, 161, 85, 1
     width:100px;
     height:40px;
     font-size: 10px;;
+  }
+  .container-11 .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
 
