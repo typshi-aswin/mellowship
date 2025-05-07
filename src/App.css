@@ -602,16 +602,28 @@ background: linear-gradient(158deg,rgba(118, 98, 252, 1) 4%, rgba(10, 161, 85, 1
     margin-top:30px;
     font-size: 14px;
   }
+  .container-10 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 30px;
+  }
 
   .container-10-right {
-    display:inline-grid;
-  
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
+
   .container-10 .normal { 
 
-    width:100px;
-    height:40px;
+    width:160px;
+    height:30px;
     font-size: 10px;;
+  }
+  .container-11 {
+
+    margin-top: 30px;
   }
   .container-11 .left {
     display: flex;

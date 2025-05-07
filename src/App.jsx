@@ -150,7 +150,7 @@ function App() {
           </button>
 
           <button className="normal arrow">
-            Registration Status
+            Reg Status
             <span className="arrow-end">
               | <img src="/assets/down-arrow.png" alt="down-arrow-icon" />
             </span>
