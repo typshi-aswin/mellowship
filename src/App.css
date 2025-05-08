@@ -329,7 +329,7 @@ background: linear-gradient(160deg,rgba(75, 12, 148, 1) 0%, rgba(15, 83, 61, 1) 
 
 .container-9-wrapper {
   padding: 0 20px;
-  width: 98%;
+  width: 100%;
   box-sizing: border-box;
   margin-top: 15px;
 }
