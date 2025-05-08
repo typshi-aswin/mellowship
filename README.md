@@ -15,8 +15,8 @@ This is a fully responsive clone of the Guest Page UI built using **React** and 
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/hoomans-ui-clone.git
-   cd hoomans-ui-clone
+   git clone https://github.com/typshi-aswin/mellowship.git
+   cd mellowship
    ```
 2. **Install Dependencies**
    ```bash
