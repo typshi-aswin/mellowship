@@ -556,14 +556,15 @@ background: linear-gradient(160deg,rgba(75, 12, 148, 1) 0%, rgba(15, 83, 61, 1) 
     border: 0;
     border-top: 1px solid #ccc;
     margin-top: 1em;
-    padding-left:20px;
-    padding-right:20px;
-    width: 100%;
+    margin:20px;
+    max-width: 100%;
+    
     
   }
   .seperator hr {
     text-align: center;
     margin-left: 10px;
+    width:100%
   }
   .container-3 {
     margin-top: 20px;
@@ -571,17 +572,41 @@ background: linear-gradient(160deg,rgba(75, 12, 148, 1) 0%, rgba(15, 83, 61, 1) 
   }
   .container-3 span:first-child {
     /* Additional style for the leftmost text */
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .container-3 span:last-child {
     /* Additional style for the rightmost text */
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .container-4 {
     margin-top: 30px;
   }
+  .left-text .number {
+    font-size: 17px;
+    color: #47C97E;
+    margin-right: 8px; /* Space between number and text */
+  }
+  
+  .left-text .label {
+    font-size: 13px;
+    color: #00FF82;
+  }
+  .right-text .number {
+    font-size: 17px;
+    color: white;
+    margin-right: 8px; /* Space between number and label */
+    
+  }
+  
+  .right-text .label {
+    font-size: 13px;
+    color: #00FF82;
+    margin-right: 8px; /* Space between different labels */
+    
+  }
+  
  
   .container-6 span {
     font-size:10px;
@@ -613,13 +638,16 @@ background: linear-gradient(160deg,rgba(75, 12, 148, 1) 0%, rgba(15, 83, 61, 1) 
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%
   }
 
   .container-10 .normal { 
 
-    width:160px;
+    width:100%;
     height:30px;
-    font-size: 10px;;
+    font-size: 10px;
+    
+    
   }
   .container-11 {
 
