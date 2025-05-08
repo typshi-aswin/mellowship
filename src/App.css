@@ -515,9 +515,9 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   height: 20px;
   cursor: pointer;
 }
+/* 640 */
 
-
-@media (max-width: 640px) {
+@media (max-width: 855px) {
   .navbar h1 {
     display: none; /* Hide the navbar title */
   }
