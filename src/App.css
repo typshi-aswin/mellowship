@@ -5,8 +5,8 @@ html, body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background: #7662FC00;
-background: linear-gradient(158deg,rgba(118, 98, 252, 1) 4%, rgba(10, 161, 85, 1) 10%, rgba(19, 21, 23, 1) 35%);
+  background: #4b0c94;
+background: linear-gradient(160deg,rgba(75, 12, 148, 1) 0%, rgba(15, 83, 61, 1) 26%, rgba(17, 18, 18, 1) 52%);
   min-height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
