@@ -193,7 +193,7 @@ function App() {
         <div className="pagination">
           <span>1 of 3</span>
           <img src="/assets/backward-arrow.svg" alt="backward" />
-          <img src="/assets/forward-arrow.svg" alt="forward" />
+          
         </div>
       </div>
 
