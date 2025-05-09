@@ -1,9 +1,9 @@
 // src/App.jsx
 import React from 'react';
-import './App.css'; // Assuming your custom CSS for the navbar will go here
+import './App.css'; 
 
 function App() {
-  const username = "adnankattekaden43"; // Placeholder for now
+  const username = "adnankattekaden43"; 
 
   return (
     

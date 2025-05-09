@@ -27,7 +27,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   -webkit-backdrop-filter: blur(144px);
 }
 
-/* General Navbar Styles */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: transparent;  /* Dark background for the navbar */
+  background-color: transparent;  
   color: white;
   
 }
@@ -46,7 +46,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
 }
 
 .navbar-logo {
-  width: 64px;  /* Adjust the size as per your requirement */
+  width: 64px;  
   height: 26px;
   margin-right: 10px;
 }
@@ -70,21 +70,21 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
 }
 
 .user-icon {
-  width: 28px;  /* Adjust the size of the user icon */
+  width: 28px;  
   height: 28px;
-  border-radius: 50%;  /* Make it a circle */
+  border-radius: 50%;  
 }
 
 .container-1 {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Pushes first group left and last item right */
+  justify-content: space-between; 
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 5px;
 }
 
-/* Left group inside container */
+
 .container-1-left {
   display: flex;
   align-items: center;
@@ -94,7 +94,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   display:none;
 }
 
-/* Transparent Button with Left Arrow */
+
 .transparent-btn {
   background-color: rgba(0, 0, 0, 0.2);
   border: none;
@@ -115,7 +115,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   ;
 }
 
-/* Demo Icon */
+
 .demo-icon {
   width: 48px;
   height: 48px;
@@ -123,14 +123,14 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   object-fit: cover;
 }
 
-/* Heading Styling */
+
 .heading {
   font-weight: 600;
   font-size: 24px;
   color: white;
 }
 
-/* View Docs (rightmost item) */
+
 .view-docs {
   display: flex;
   align-items: center;
@@ -147,11 +147,11 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   ;
 }
 
-/* Container 2 Styles */
+
 .container-2 {
   display: flex;
   justify-content: flex-start;
-  gap: 10px; /* Add space between each menu item */
+  gap: 10px; 
   margin-top: 1px;
   padding:0 20px;
 }
@@ -159,53 +159,53 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
 .menu-item {
   font-size: 12px;
   font-weight: 300;
-  color: #ffffff99; /* 40% white */
+  color: #ffffff99; 
   cursor: pointer;
   padding-bottom: 5px;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .menu-item:hover {
-  color: #FFFFFF; /* Full white on hover */
+  color: #FFFFFF; 
 }
 
-/* Line under the clicked item */
+
 .menu-item.active {
   border-bottom: 2px solid white;
 }
 
 .container-3 {
   display: flex;
-  justify-content: space-between; /* Pushes content to left and right ends */
-  margin-top: 20px; /* Space between container-2 and container-3 */
-  padding: 0 20px; /* Add some padding to avoid elements touching edges */
+  justify-content: space-between; 
+  margin-top: 20px; 
+  padding: 0 20px; 
 }
 
 .container-3 span {
   
   font-weight: 300;
-  color: #ffffff; /* 40% white */
+  color: #ffffff; 
 }
 
 .container-3 span:first-child {
-  /* Additional style for the leftmost text */
+  
   font-size: 20px;
 }
 
 .container-3 span:last-child {
-  /* Additional style for the rightmost text */
+  
   font-size: 14px;
 }
 
-/* Container 4 Styles */
+
 .container-4 {
   display: flex;
-  justify-content: space-between; /* Aligning the leftmost and rightmost text */
-  padding: 0 20px; /* Padding to give some space from the edges */
-  margin-top: 20px; /* Space between container-3 and container-4 */
+  justify-content: space-between; 
+  padding: 0 20px; 
+  margin-top: 20px; 
 }
 
-/* Left Text Styles */
+
 .left-text {
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
 .left-text .number {
   font-size: 20px;
   color: #47C97E;
-  margin-right: 8px; /* Space between number and text */
+  margin-right: 8px; 
 }
 
 .left-text .label {
@@ -222,7 +222,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   color: #00FF82;
 }
 
-/* Right Text Styles */
+
 .right-text {
   display: flex;
  align-items: center;
@@ -231,14 +231,14 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
 .right-text .number {
   font-size: 20px;
   color: white;
-  margin-right: 8px; /* Space between number and label */
+  margin-right: 8px; 
   
 }
 
 .right-text .label {
   font-size: 16px;
   color: #00FF82;
-  margin-right: 8px; /* Space between different labels */
+  margin-right: 8px; 
   
 }
 
@@ -515,11 +515,11 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   height: 20px;
   cursor: pointer;
 }
-/* 640 */
+
 
 @media (max-width: 855px) {
   .navbar h1 {
-    display: none; /* Hide the navbar title */
+    display: none; 
   }
 
   .username {
@@ -571,12 +571,12 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
     
   }
   .container-3 span:first-child {
-    /* Additional style for the leftmost text */
+    
     font-size: 12px;
   }
   
   .container-3 span:last-child {
-    /* Additional style for the rightmost text */
+    
     font-size: 12px;
   }
 
@@ -586,7 +586,7 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   .left-text .number {
     font-size: 17px;
     color: #47C97E;
-    margin-right: 8px; /* Space between number and text */
+    margin-right: 8px; 
   }
   
   .left-text .label {
@@ -596,14 +596,14 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   .right-text .number {
     font-size: 17px;
     color: white;
-    margin-right: 8px; /* Space between number and label */
+    margin-right: 8px; 
     
   }
   
   .right-text .label {
     font-size: 13px;
     color: #00FF82;
-    margin-right: 8px; /* Space between different labels */
+    margin-right: 8px; 
     
   }
   
