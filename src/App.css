@@ -547,9 +547,22 @@ background: linear-gradient(130deg,rgba(77, 43, 122, 1) 0%, rgba(19, 69, 51, 1) 
   .view-docs {
     display: none;
   }
-  .menu-item {
-    display:none;
-  }
+  /**.menu-item {
+    display:flex;
+    overflow: auto;
+  } **/ 
+  .container-2 {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.container-2::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
   .seperator {
     display: flex;
     height: 1px;
